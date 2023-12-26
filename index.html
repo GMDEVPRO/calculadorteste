@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculador de nota Escolar</title>
+    <!-- link for font -->
+    <link
+    href= 
+"https://fonts.googleapis.com/css?family=Righteous&display=swap"
+    rel="stylesheet"
+  /> 
+  <link rel="stylesheet" href="style.css" /> 
+
+</head>
+<body>
+    <!-- main html -->
+    <div class="container">
+        <h1>Calculadora notas d'étudiante </h1>
+    <div class="screen-body-item">
+    <div class="app">
+    <div class="form-group">
+        <!-- option for taking  the input -->
+
+        <input
+        type="text"
+        class="form-control"
+        placeholder="QUIMICA"
+        id="quimica"
+        />
+    </div>
+    <div class="form-group">
+        <input 
+        type="text"
+        class="form-control"
+        placeholder="PORTUGUESE"
+        id="portuguese"
+        />
+    </div>
+    <div class="form-group">
+        <input type="text"
+        class="form-control"
+        placeholder="MATEMATICA"
+        id="matematica"
+        />
+    </div>
+    <div class="form-group">
+        <input type="text"
+        class="form-control"
+        placeholder="FISICA"
+        id="fisica"
+        />
+    </div>
+   </div>
+   <input type="button"
+   value="monstrar porcentagem"
+   class="form-button"
+   onclick="calculate()"
+   />
+  </div>
+ </div>
+</div>
+<!-- por mostrar o resultado -->
+<div class="form-group monstrardata"> 
+    <p id="monstrardata"></p> 
+  </div> 
+</div>
+<!-- adicionando arquivo javascript externo -->
+<script src="script.js"></script>
+</body>
+</html>
